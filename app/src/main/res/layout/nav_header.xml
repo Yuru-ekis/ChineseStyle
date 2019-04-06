@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:padding="10dp"
+    android:background="#795548">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/icon_image"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/avatar_new"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"/>
+
+    <TextView
+        android:id="@+id/credit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Credit to"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:layout_above="@id/username"
+        android:fontFamily="@font/wy"/>
+
+    <TextView
+        android:id="@+id/mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/specialthanks"
+        android:text="https://ykis.tk"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:fontFamily="@font/wy"
+        android:autoLink="web"/>
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mail"
+        android:text="Yuru ekis &amp; 吴彦组"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:fontFamily="@font/wy"/>
+
+    <TextView
+        android:id="@+id/specialthanks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="特别感谢 @sumiMakito"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:fontFamily="@font/wy"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
