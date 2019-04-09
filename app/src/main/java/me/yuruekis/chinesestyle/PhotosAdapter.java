@@ -64,7 +64,7 @@ public class PhotosAdapter extends RecyclerView.Adapter<PhotosAdapter.ViewHolder
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
         Photos photos = mPhotosList.get(i);
         viewHolder.photosName.setText(photos.getName());
-        Glide.with(mContext).load(photos.getPhotosImgURL()).into(viewHolder.photosImage); //加入加载中图片
+        Glide.with(mContext).load(photos.getPhotosImgURL()).thumbnail(Glide.with(mContext).load(R.drawable.loading)).into(viewHolder.photosImage); //加入加载中图片
     }
 
     @Override

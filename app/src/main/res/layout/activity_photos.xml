@@ -61,9 +61,7 @@
                         android:layout_alignParentLeft="true"
                         android:layout_centerVertical="true"
                         android:layout_margin="5dp"
-                        android:src="@drawable/nav_icon"
-                        app:civ_border_color="@color/primary"
-                        app:civ_border_width="2dp" />
+                        android:src="@drawable/nav_icon" />
 
                     <TextView
                         android:id="@+id/intro_village"
@@ -71,6 +69,7 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         android:layout_toRightOf="@+id/avatar_village"
+                        android:layout_centerVertical="true"
                         android:text="乔林村位于广东省潮州市潮安县政府驻地东南2.2千米，庵埠镇政府驻地东2.1千米。地处庵江东南。属庵埠镇。人口687人，面积0.125平方公里。"
                         android:textColor="@color/accent"
                         android:textSize="16sp"
@@ -86,7 +85,7 @@
                 android:layout_height="match_parent"
                 android:clipToPadding="false"
                 android:layout_marginTop="?attr/actionBarSize"
-                android:background="@color/primary_dark" />
+                android:background="#c62828" />
 
         </FrameLayout>
 

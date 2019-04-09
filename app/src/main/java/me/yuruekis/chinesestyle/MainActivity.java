@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
     //private Village[] villages = {new Village("乔林村", "https://i.loli.net/2019/03/29/5c9e1a0004541.jpg"), new Village("桃山村", "https://i.loli.net/2019/03/29/5c9e1a0004541.jpg"), new Village("贾里村", "https://i.loli.net/2019/03/29/5c9e1a0004541.jpg")};
 
-    private List<Village> villageList = new ArrayList<>(Arrays.asList(new Village("汕大剪纸", "https://ws1.sinaimg.cn/mw690/0071ouepgy1g1k00uuei0j31hc0u0quu.jpg"), new Village("剪纸过程", "https://ws1.sinaimg.cn/mw690/0071ouepgy1g1k00uuei0j31hc0u0quu.jpg")));
+    private List<Village> villageList = new ArrayList<>(Arrays.asList(new Village("汕大剪纸", "https://ww1.sinaimg.cn/large/0071ouepgy1g1vkb32xomj30hs0da3zk.jpg"), new Village("剪纸过程", "https://ws1.sinaimg.cn/large/0071ouepgy1g1vnxryky2j30eo0c0t8z.jpg")));
 
     private VillageAdapter adapter;
 
@@ -70,12 +70,12 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
     }
 
-    public boolean onCreateOptionsMenu (Menu menu) {
+    /*public boolean onCreateOptionsMenu (Menu menu) {
         getMenuInflater().inflate(R.menu.toolbar, menu);
         return true;
-    }
+    }*/
 
-    @Override
+    /*@Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.about:
@@ -84,5 +84,5 @@ public class MainActivity extends AppCompatActivity {
             default:
         }
         return true;
-    }
+    }*/
 }

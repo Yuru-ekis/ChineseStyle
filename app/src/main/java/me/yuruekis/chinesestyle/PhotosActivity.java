@@ -66,8 +66,8 @@ public class PhotosActivity extends AppCompatActivity {
 
         switch (villageName) {
             case "汕大剪纸":
-                introVillage.setText("剪纸是一种纸张艺术，是以剪刀把纸剪成不同的图案。");  //设置简介
-                introAvatar.setImageResource(R.drawable.avatar_new);  //设置简介处头像
+                introVillage.setText("用剪纸呈现汕大的标志性建筑物，让汕大之魂在古老的剪纸艺术中焕发生机。");  //设置简介
+                introAvatar.setImageResource(R.drawable.meihua);  //设置简介处头像
                 break;
             case "剪纸过程":
                 introVillage.setText("苟利国家生死以，岂因祸福避趋之");
